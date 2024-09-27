@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+click = "*"
+dynaconf = "*"
+pycli = {file = ".", editable = true}
+
+[dev-packages]
+black = "*"
+pytest = "*"
